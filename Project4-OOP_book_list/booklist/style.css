@@ -1,0 +1,42 @@
+.container {
+  max-width: 960px;
+  margin: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.delete {
+  color: red;
+}
+
+.full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container #form1 > div,
+.container h1 {
+  margin: 2rem;
+}
+
+.container #form1 > div input {
+  margin-top: 1rem;
+}
+
+.container #form1 div #submit {
+  padding: 0.4rem;
+  width: 100px;
+  background-color: black;
+  color: white;
+}
+
+.container #form1 div #submit:hover {
+  background-color: #f4f4f4;
+  color: black;
+}
+
+table #book-list {
+  text-align: center;
+}
